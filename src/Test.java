@@ -12,7 +12,7 @@ public class Test {
 		 Grade grade=new Grade();
 		 grade.setGradeName("ÒÆ¶¯»¥Áª1901");
 		 grade.setGradeNum(30);
-		 student.setId("20191259");
+		 student.setId("20191234");
 		 student.setName("ÕÔÁù");
 		 student.setAge(18);
 		 student.setSex("Å®");

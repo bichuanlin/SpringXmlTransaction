@@ -1,11 +1,14 @@
 package com.jvtc.dao.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
 
 import com.jvtc.dao.StudentDao;
 import com.jvtc.entity.Student;
-
+@Repository("studentDao")
 public class StudentDaoImpl implements StudentDao{
+	@Autowired
     JdbcTemplate jdbcTemplate;
     
 	
